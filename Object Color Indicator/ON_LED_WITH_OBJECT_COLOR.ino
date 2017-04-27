@@ -44,11 +44,8 @@ unsigned int CLEAR = 0;
 #define YELLOW_LED 10
 // text contained to put on the console
 // at the end of the loop.
-String consoleOutput = "";
 
 void setup() {
-  
-  //Serial.begin(9600);
 
   // To get the specific 
   // color frequency.
@@ -94,20 +91,7 @@ void loop() {
   BLUE = getColorFrequency(LOW, HIGH); // frequency of blue color.
   CLEAR = getColorFrequency(HIGH, LOW); // frequency of clear.
 
-  // Making the ouput for console.
-  //consoleOutput = consoleOutput + "Red: " + RED;
-  //consoleOutput = consoleOutput + ", Green: " + GREEN;
-  //consoleOutput = consoleOutput + ", Blue: " + BLUE;
-  //consoleOutput = consoleOutput + ", Clear: " + CLEAR;
-
-  // printing to console.
-  //Serial.println(consoleOutput);
-  //consoleOutput = "";
-
   checkForColors();
-
-  // delaying the program to 1 second.
-  //delay(1000);
 
 }
 
