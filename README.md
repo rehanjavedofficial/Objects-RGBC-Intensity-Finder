@@ -1,4 +1,1 @@
-# Arduino-Uno
-Arduino Codes
-
-1: Objects RGBC (Red, Green, Blue, Clear) Intensity using Photodiodes in RGB Color Sensor.
+When any object is placed near to the RGB colour Sensor TCS3200 this code will get the intensity of RED, GREEN, BLUE and CLEAR photodiode intensity of that object. Data printed to the Serial Monitor.
